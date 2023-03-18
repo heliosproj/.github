@@ -1,12 +1,4 @@
-## Hi there 👋
-
-<!--
-
-**Here are some ideas to get you started:**
-
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+# About
+The HeliOS Project is an open source, community delivered, embedded operating system project. The goal of the Project is to deliver a modern, full featured, embedded operating system that meets the needs of academia, research, STEM education and enthusiasts alike. This requires one embedded operating system to meet the needs of a broad range of users from the entry level Arduino user implementing an embedded operating system in his/her project for the first time to a researcher developing a remote sensing instrument that will be deployed to take measurements of its environment. Regardless of your use case, HeliOS is easily integrated into any embedded development environment.
+# Getting Started
+Beep beep

@@ -6,7 +6,7 @@ The HeliOS Project is an open source, community based, project to build and main
 
 Using the HeliOS embedded operating system in your Arduino sketch could not be easier. Open the Arduino IDE and use the Library Manager to search for and install HeliOS. The folks at Arduino have the steps to install a library [here](https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries). Once installed, you can experiment with the example sketches that are included with HeliOS. Additional information about HeliOS and its syscalls can be found in the HeliOS Developer’s Guide [here](https://github.com/heliosproj/HeliOS/blob/master/doc/HeliOS_Developers_Guide.pdf).
 
-## PlatformIO
+## PlatformIO IDE
 
 HeliOS is also available through the PlatformIO registry and can be added to your project either through the PlatformIO IDE or CLI. The steps for which are described in the PlatformIO documentation [here](https://docs.platformio.org/en/latest/librarymanager/index.html). Like the Arduino IDE, several examples are included with HeliOS for you to experiment with. Additional information about HeliOS and its syscalls can be found in the HeliOS Developer’s Guide [here](https://github.com/heliosproj/HeliOS/blob/master/doc/HeliOS_Developers_Guide.pdf).
 

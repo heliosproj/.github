@@ -12,12 +12,12 @@ HeliOS is also available through the PlatformIO registry and can be added to you
 
 ## ARM Cortex-M
 
-If you are developing for the ARM Cortex-M line of microcontrollers, HeliOS includes full CMSIS support and can be easily integrated into your Keil uVision or vendor IDE project by:
+If you are developing for the ARM Cortex-M series of processors, HeliOS includes full CMSIS support and can be easily integrated into your Keil uVision or vendor IDE project by:
 
-1. Downloading HeliOS and unpacking the ZIP file into your project’s source directory
-2. Downloading the CMSIS headers and vendor’s HAL/BSP and placing them into your project’s include directory
-3. Adding the vendor’s HAL/board support header to the HeliOS port.h header immediately following the #elif defined(CMSIS_ARCH_CORTEXM) statement (i.e., line 52)
-4. Setting SYSTEM_CORE_CLOCK_FREQUENCY and SYSTEM_CORE_CLOCK_PRESCALER in HeliOS’s config.h header to match the Cortex-M’s core clock frequency and your desired prescaler
-5. Add the -DCMSIS_ARCH_CORTEXM compiler directive to your project’s build configuration
+1. Downloading the current release [here](https://github.com/heliosproj/HeliOS/releases) and unpacking the ZIP file into your project’s source directory
+2. Downloading the CMSIS headers and vendor’s HAL/BSP headers and placing them into your project’s include directory
+3. Adding the vendor’s HAL/BSP header to the HeliOS [port.h](https://github.com/heliosproj/HeliOS/blob/master/src/port.h) header immediately following the ``#elif defined(CMSIS_ARCH_CORTEXM)`` statement (i.e., line 52)
+4. Setting ``SYSTEM_CORE_CLOCK_FREQUENCY`` and ``SYSTEM_CORE_CLOCK_PRESCALER`` in HeliOS’s [config.h](https://github.com/heliosproj/HeliOS/blob/master/src/config.h) header to match the Cortex-M’s core clock frequency and your desired prescaler
+5. Add the ``-DCMSIS_ARCH_CORTEXM`` compiler directive to your project’s build configuration
 
 Detailed information about HeliOS and its syscalls can be found in the HeliOS Developer’s Guide [here](https://github.com/heliosproj/HeliOS/blob/master/doc/HeliOS_Developers_Guide.pdf).
